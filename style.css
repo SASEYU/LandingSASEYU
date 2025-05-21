@@ -90,7 +90,10 @@ nav ul li a:hover {
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    background: url('imagenes/foto de portada.webp') no-repeat center center/cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     text-align: center;
@@ -115,6 +118,13 @@ nav ul li a:hover {
     animation: fadeInUp 1s ease;
 }
 
+.cta-button {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
 .btn {
     display: inline-block;
     background-color: var(--secondary);
